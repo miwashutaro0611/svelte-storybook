@@ -4,18 +4,39 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-backgrounds": "^5.3.17",
+    "@storybook/addon-console": "^1.2.1",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addon-notes": "^5.3.17",
+    "@storybook/addon-storysource": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/svelte": "^5.3.17",
+    "@storybook/theming": "^5.3.17",
+    "babel-loader": "^8.1.0",
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.0.0"
+    "sass": "^1.26.3",
+    "storybook-dark-mode": "^0.4.0",
+    "svelte": "^3.20.1",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^3.6.0"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "@storybook/addon-docs": "^5.3.17",
+    "css-loader": "^3.4.2",
+    "sass-loader": "^8.0.2",
+    "sirv-cli": "^0.4.4",
+    "style-loader": "^1.1.3"
   }
 }
