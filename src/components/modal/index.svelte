@@ -68,6 +68,7 @@ const modalClose = () => {
 
 const CtrlFnckey = e => {
   if(event.keyCode == 27) {
+    modalClose()
   }
 }
 
