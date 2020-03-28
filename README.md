@@ -2,6 +2,16 @@
 
 ---
 
+# url
+
+## page
+
+https://svelte-sample.netlify.com/
+
+## storybook
+
+https://svelte-storybook.netlify.com/?path=/story/modal--modal-content
+
 # svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
